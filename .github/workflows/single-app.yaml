@@ -337,7 +337,7 @@ jobs:
           allowUpdates: true
           omitBody: true
           omitName: true
-          artifacts: "output/linux/*.deb,output/linux/*.AppImage"
+          artifacts: "output/linux/*.deb,output/linux/*.rpm,output/linux/*.AppImage"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload to release (macOS)
